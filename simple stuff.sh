@@ -7,3 +7,5 @@ EXAMPLE="example"
 export $EXAMPLE
 # Now, if you `echo` our `$EXAMPLE` then we get the string 'example', however if we try to run it without the `echo` BASH will say that the command `example` is not a command.
 echo $EXAMPLE
+# If you think that typing `echo $EXAMPLE` is too long, we can make an alias that does the same thing as `echo $EXAMPLE`. Here is how you do it:
+alias xmpl = "echo $EXAMPLE"
